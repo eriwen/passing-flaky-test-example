@@ -1,0 +1,18 @@
+buildscript {
+  repositories {
+    maven { url 'https://repo.maven.apache.org/maven2/' }
+  }
+}
+
+apply plugin: 'java'
+apply plugin: 'testextensions'
+
+dependencies {
+            testCompile 'junit:junit:4.11'
+}
+
+repositories {
+  jcenter()
+}
+
+
